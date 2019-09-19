@@ -1,0 +1,7 @@
+<suite name="software testing" verbose="1">
+<test name="General Maven run">
+<classes>
+<class name="com.org.metric1.Shangrila.HelloMavenTest"></class>
+</classes>
+</test>
+</suite>
