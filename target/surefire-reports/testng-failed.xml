@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [software testing]">
-  <test name="General Maven run(failed)">
+<suite verbose="0" name="Failed suite [com.org.metric1.Shangrila.HelloMavenTest]">
+  <test name="Command line test(failed)">
     <classes>
       <class name="com.org.metric1.Shangrila.HelloMavenTest">
         <methods>
@@ -10,5 +10,5 @@
         </methods>
       </class> <!-- com.org.metric1.Shangrila.HelloMavenTest -->
     </classes>
-  </test> <!-- General Maven run(failed) -->
-</suite> <!-- Failed suite [software testing] -->
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.org.metric1.Shangrila.HelloMavenTest] -->

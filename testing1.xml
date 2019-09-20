@@ -1,4 +1,10 @@
-<suite name="software testing" verbose="1">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="software testing" verbose="1" parallel="false">
+<listneners>
+<listener
+    class-name="com.org.metric1.Shangrila.ExtentReporterNG">
+</listener>
+</listneners>
 <test name="General Maven run">
 <classes>
 <class name="com.org.metric1.Shangrila.HelloMavenTest"></class>
